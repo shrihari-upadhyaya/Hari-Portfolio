@@ -176,7 +176,7 @@ img {
 
 /* Hero */
 .hero {
-    padding: 160px 0 100px;
+    padding: 130px 0 72px;
     background: radial-gradient(circle at 80% 20%, rgba(56, 189, 248, 0.12), transparent 40%),
                 var(--bg);
 }
@@ -224,7 +224,7 @@ img {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
-    margin-bottom: 4rem;
+    margin-bottom: 2.75rem;
 }
 
 .btn {
@@ -287,12 +287,12 @@ img {
 
 /* Sections */
 .section {
-    padding: 100px 0;
+    padding: 72px 0;
 }
 
 .section-header {
     max-width: 640px;
-    margin-bottom: 3rem;
+    margin-bottom: 2.25rem;
 }
 
 .section-header h2 {
@@ -415,7 +415,7 @@ img {
 
 .case-card p {
     color: var(--text-muted);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.25rem;
 }
 
 .case-link {
@@ -487,7 +487,7 @@ img {
 .cv-timeline {
     position: relative;
     padding-left: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2.25rem;
 }
 
 .cv-timeline::before {
@@ -677,11 +677,11 @@ img {
     }
 
     .hero {
-        padding: 130px 0 80px;
+        padding: 115px 0 64px;
     }
 
     .hero-actions {
-        margin-bottom: 3rem;
+        margin-bottom: 2.25rem;
     }
 
     .hero-lead {
@@ -706,7 +706,7 @@ img {
     }
 
     .section {
-        padding: 70px 0;
+        padding: 56px 0;
     }
 
     .hero-stats {
@@ -722,7 +722,11 @@ img {
     }
 
     .hero {
-        padding: 115px 0 65px;
+        padding: 105px 0 56px;
+    }
+
+    .section {
+        padding: 48px 0;
     }
 
     .hero-actions .btn {
