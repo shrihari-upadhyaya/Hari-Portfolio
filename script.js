@@ -13,14 +13,14 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
-// Dark / light theme toggle
-const themeToggle = document.getElementById('themeToggle');
-
-themeToggle.addEventListener('click', () => {
-    const current = document.documentElement.getAttribute('data-theme');
-    const next = current === 'light' ? 'dark' : 'light';
-    document.documentElement.setAttribute('data-theme', next);
-    localStorage.setItem('theme', next);
+// Dark / light theme toggle (button appears in both desktop menu and mobile bar)
+document.querySelectorAll('.theme-toggle').forEach(themeToggle => {
+    themeToggle.addEventListener('click', () => {
+        const current = document.documentElement.getAttribute('data-theme');
+        const next = current === 'light' ? 'dark' : 'light';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('theme', next);
+    });
 });
 
 // Update footer year automatically
