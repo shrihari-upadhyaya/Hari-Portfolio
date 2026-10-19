@@ -537,19 +537,6 @@ img {
     text-align: center;
 }
 
-.cv-note {
-    color: var(--text-muted);
-    font-size: 0.85rem;
-    margin-top: 1rem;
-}
-
-.cv-note code {
-    background: var(--bg-card);
-    padding: 0.15rem 0.4rem;
-    border-radius: 4px;
-    color: var(--accent);
-}
-
 /* Contact */
 .contact-info {
     display: grid;
