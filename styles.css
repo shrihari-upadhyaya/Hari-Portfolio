@@ -120,10 +120,6 @@ img {
     gap: 0.75rem;
 }
 
-.theme-toggle-mobile {
-    display: none;
-}
-
 .theme-toggle {
     display: flex;
     align-items: center;
@@ -136,6 +132,10 @@ img {
     color: var(--text-muted);
     cursor: pointer;
     transition: color 0.2s, border-color 0.2s;
+}
+
+.theme-toggle-mobile {
+    display: none;
 }
 
 .theme-toggle:hover {
