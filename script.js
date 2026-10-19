@@ -13,5 +13,15 @@ document.querySelectorAll('.nav-menu a').forEach(link => {
     });
 });
 
+// Dark / light theme toggle
+const themeToggle = document.getElementById('themeToggle');
+
+themeToggle.addEventListener('click', () => {
+    const current = document.documentElement.getAttribute('data-theme');
+    const next = current === 'light' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('theme', next);
+});
+
 // Update footer year automatically
 document.getElementById('year').textContent = new Date().getFullYear();
